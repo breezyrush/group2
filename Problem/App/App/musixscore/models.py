@@ -20,6 +20,7 @@ class Performer(models.Model):
 		
 class Album(models.Model):
 	name = models.CharField()
+	performer_id = models.ForeignKey(Performer, null=True, blank=True)
 	def __str__(self):
         return self.name
 
@@ -28,6 +29,7 @@ class Album(models.Model):
 	
 class Track(models.Model):
 	name = models.CharField()
+	album_id = models.ForeignKey(Album, null=True, blank=True)
 	def __str__(self):
         return self.name
 
