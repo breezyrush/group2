@@ -1,0 +1,8 @@
+
+Tasks
+
+Paradiang - Browse music drop down
+Yee - Data gathering
+Makinano - Database
+Villaroza - Multiple-select drop down list
+Aldrin - Add to cart button and data gathering
